@@ -30,9 +30,40 @@ Install the needed dependencies - <code>npm install</code>
 Edit your <code>index.html</code> file,
 Goto the <code>src</code> directory - <code>cd src</code> (You should add your CSS and JavaScript file here...)
 
-Edit the server.js (Node file) at line number <code>3</code>, type what do ypu want to happen when the application is running.
+<h3>Testing product for desktop (Windows, macOS, Linux) - development build</h3>
+
+In your server.js(Node file), call the function startDevServer, and give the first parameter as "desktop", and the second parameter, as a function. Inside this anonymous function, type what do you want to do, when the application has started.
+
+
+```javascript
+bestproduct.startDevServer("desktop", function(){ // you can also use ES6 arrow functions
+   console.log("My application has started!");
+});
+```
 
 Now run the <code>server.js</code> file - <code>node server.js</code>
+
+
 ***
 
-<p style="color: red">Note*: This file is using the development build of BestProduct, if you need the producting build, please edit the function name from <code>startDevServer</code> to <code>startProductionsServer</code></p>
+<h3>Testing product for desktop (Windows, macOS, Linux) - production build</h3>
+
+In your server.js(Node file), call the function startDevServer, and give the first parameter as "desktop", and the second parameter, as a function. Inside this anonymous function, type what do you want to do, when the application has started, for the third parameter, type `windows` or `mac` or `linux` or `bestos`
+
+
+```javascript
+bestproduct.startProductionServer("desktop","windows/mac/linux/bestos", function(){ // you can also use ES6 arrow functions
+   console.log("My application has started!");
+});
+```
+
+Now run the <code>server.js</code> file - <code>node server.js</code>
+
+---
+
+
+
+
+
+<h3>BestProduct for mobile (beta)</h3>
+...
