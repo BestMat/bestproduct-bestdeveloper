@@ -1,0 +1,10 @@
+{
+    "applicationName": "Test",
+    "version": "1.0.0",
+    "packages": {},
+    "styles": "./styles",
+    "scripts": "./scripts",
+    "buildType": "development",
+    "react-jsx": false,
+    "typescript": false
+}
