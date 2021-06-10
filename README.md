@@ -82,7 +82,7 @@ This is mandatory. Enter your script and the style directory respectively.
  This is mandatory. When you are developing the product, please change the value to <b>development</b>. When you are going to publish the app to Google play store or App store or BestStore or the operating system's defualt store app, change it to "production".
  
  <h4>react-jsx</h4>
- This is mandatory. If your product is using React - The framework for building UI websites by Facebook, or using JSX set this as to <code>true</code>
+ This is mandatory. If your product is using React - The framework for building UI websites by Facebook, or using JSX set this as to <code>true</code>, and add a property in the packages key as react, babel, and the needed packages for a development build of React.
  
-  <h4>typescript</h4>
+ <h4>typescript</h4>
  This is mandatory. If your product is TypeScript - the strict type language for JavaScript, set this as to <code>true</code>
