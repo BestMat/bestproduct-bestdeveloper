@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-  <strong>BestProduct helps developers to build successful applications, available on iOS, Android, Windows, macOS, Linux and all the Unix like operating systems.</strong><br>
+  <strong>BestProduct helps developers to build successful applications, available on iOS, Android, Windows, macOS, BestOS, Linux and all the Unix like operating systems.</strong><br>
 </p>
 
 <p align="center">
