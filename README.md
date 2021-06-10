@@ -59,11 +59,30 @@ bestproduct.startProductionServer("desktop","windows/mac/linux/bestos", function
 
 Now run the <code>server.js</code> file - <code>node server.js</code>
 
----
+<h3>Product config - <code>bestproduct.config.json</code></h3>
 
+The `bestproduct.config.json` is the main configuration file. Data from config, is used to configure the application.
 
+<h4>applicationName key</h4>
 
+This is a mandatory field. Enter your application as the value of this key. The defualt value is **"Test"**.
 
+<h4>version key</h4>
 
-<h3>BestProduct for mobile (beta)</h3>
-...
+This is also a mandatory field. It creates a package.json file (Node package). It is your version control system your application.
+
+<h4>packages key</h4>
+
+This is also a mandatory field. It importes the given dependencies. If there are no packages to import, leave it as empty. **Do not keep it as null or undefined or false**
+
+<h4>styles and script keys</h4>
+This is mandatory. Enter your script and the style directory respectively.
+ 
+ <h4>buildType</h4>
+ This is mandatory. When you are developing the product, please change the value to <b>development</b>. When you are going to publish the app to Google play store or App store or BestStore or the operating system's defualt store app, change it to "production".
+ 
+ <h4>react-jsx</h4>
+ This is mandatory. If your product is using React - The framework for building UI websites by Facebook, or using JSX set this as to <code>true</code>
+ 
+  <h4>typescript</h4>
+ This is mandatory. If your product is TypeScript - the strict type language for JavaScript, set this as to <code>true</code>
