@@ -1,4 +1,4 @@
-//©2021 - BestMat - BestDodger - Bestproduct - All rights reserved
+// ©2024 - BestDeveloper - BestMat, Inc. - All rights reserved.
 const execSync = require('child_process').execSync;
 const fs = require("fs");
 console.log("Welcome to BestProduct!")
