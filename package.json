@@ -1,8 +1,8 @@
 {
-  "name": "electron-api-demos",
-  "productName": "Electron API Demos",
-  "version": "2.0.2",
-  "description": "Electron interactive API demos",
+  "name": "bestproduct-bestmat",
+  "productName": "bestdeveloper",
+  "version": "1.0.0",
+  "description": "BestDeveloper Multi-Platform Product Creator - BestProduct",
   "main": "main.js",
   "bin": "cli.js",
   "scripts": {
